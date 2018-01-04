@@ -23,7 +23,7 @@ class Character(object):
         self.CHRmod = (CHR - 10) / 2
 
     def set_proficiency(self, *args):
-        self.proficiency = args
+        self.proficiency = list(args)
 
     def stats(self):
         return 'Strenght {} \nDexterity {} \nConstitution {} \nIntelect {} \nWisdom {} \nCharisma\nWisdom {}'.format(self.STR, self.DEX, self.CON, self.INT, self.WIS, self.CHR)
