@@ -22,8 +22,9 @@ class Character(object):
         self.WISmod = (WIS - 10) / 2
         self.CHRmod = (CHR - 10) / 2
 
-    def set_proficiency(self, *args):
-        self.proficiency = list(args)
+    def set_proficiency_list(self, *args):
+        self.proficiency_list = list(args)
 
     def stats(self):
-        return 'Strenght {} \nDexterity {} \nConstitution {} \nIntelect {} \nWisdom {} \nCharisma\nWisdom {}'.format(self.STR, self.DEX, self.CON, self.INT, self.WIS, self.CHR)
+        return ('Strenght {} \nDexterity {} \nConstitution {} \nIntelect {} \nWisdom {} \nCharisma {}'
+                .format(self.STR, self.DEX, self.CON, self.INT, self.WIS, self.CHR))
