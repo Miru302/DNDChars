@@ -15,4 +15,5 @@ print Bruenor.stats()
 print (type(Bruenor.proficiency_list))
 for i in range(len(Bruenor.proficiency_list)):
     print (Bruenor.proficiency_list[i])
-list
+
+print Bruenor.STR

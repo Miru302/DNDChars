@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Races>
+   <Dwarf>
+      <HillDwarf>
+      	<Attributes con="2" wis="1"/>
+      	<Description/>CoolDwarfs
+      </HillDwarf>
+      <MountainDwarf>
+      </MountainDwarf>
+   </Dwarf>
+   <Elf>
+   	<MoonElf>
+   		<Attributes con="1"/>
+   	</MoonElf>
+   </Elf>
+</Races>
