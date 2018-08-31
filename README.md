@@ -1,2 +1,2 @@
 # DNDChars
-Dungeon and Dragons Character Creator. Studying Python in a fun way!
+Dungeon and Dragons Character Creator.
